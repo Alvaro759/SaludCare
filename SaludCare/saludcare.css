@@ -2,10 +2,10 @@
 
 html,
 body {
+  font-family: "Inter", sans-serif;
   height: 100%;
   width: 100%;
   margin: 0;
-  font-family: "Inter", sans-serif;
 }
 
 .contenedor {
@@ -132,7 +132,7 @@ body {
 
 .form {
   width: 100%;
-  height: 50px;
+  height: 55px;
   max-width: 400px;
   position: relative;
   overflow: hidden;
@@ -194,9 +194,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
-button {
+.acceso {
   margin-top: 10%;
 }
