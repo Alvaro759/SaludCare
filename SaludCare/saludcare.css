@@ -1,195 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-html, body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 .contenedor {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .cabecera {
-    background-color: #0C4A1A;
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #0c4a1a;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    margin-left: 10px;
-    display: flex;
+  margin-left: 10px;
+  display: flex;
 }
 
 .textoCabecera {
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
 }
 
-.inicio, .consultas, .videoconsulta, .sesion{
-    margin-top: 10px;
-    margin-right: 10px;
+.inicio,
+.consultas,
+.videoconsulta,
+.sesion {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
-.inicio   a, .consultas a, .videoconsulta a, .sesion a{
-    text-decoration: none;
-    color: white;
+.inicio a,
+.consultas a,
+.videoconsulta a,
+.sesion a {
+  text-decoration: none;
+  color: white;
 }
-
 
 .contenido {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.contenidoIzq{
-    box-sizing: border-box;
-    margin: 5em;
-    width: 610px;
-    height: 75%;
-    background: rgba(12, 74, 26, 0.25);
-    border: 5px dashed #000000;
+.contenidoIzq {
+  box-sizing: border-box;
+  margin: 5em;
+  width: 610px;
+  height: 75%;
+  background: rgba(12, 74, 26, 0.25);
+  border: 5px dashed #000000;
 }
 
-.textoContenidoIzq{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5vw; 
-    margin: 1em;
-    line-height: 1.5;
-    color: #000000;
+.textoContenidoIzq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 1em;
+  line-height: 1.5;
+  color: #000000;
 }
-
 
 .contenidoDcha {
-    box-sizing: border-box;
-    margin: 5em;
-    width: 637px;
-    height: 75%;
-    border: 5px dashed #000000;
-    background: url(./img/imagenInicio.png);
-    background-size: cover; 
-    background-position: center; 
+  box-sizing: border-box;
+  margin: 5em;
+  width: 637px;
+  height: 75%;
+  border: 5px dashed #000000;
+  background: url(./img/imagenInicio.png);
+  background-size: cover;
+  background-position: center;
 }
-
 
 .pie {
-    background-color: #B8B8B8;
-    height: 15%;
-    display: flex;
-    align-items: center;
+  background-color: #b8b8b8;
+  height: 15%;
+  display: flex;
+  align-items: center;
 }
 
-.pie img{
-    filter: saturate(10);
+.pie img {
+  filter: saturate(10);
 }
 
-.textoPie{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+.textoPie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
-.accesibilidad, .avisolegal, .proteccion {
-    margin: 10px;
-    margin-right: 60px;
+.accesibilidad,
+.avisolegal,
+.proteccion {
+  margin: 10px;
+  margin-right: 60px;
 }
 
 /* A partir de aquí es Inicio de sesion*/
 
 .contenedorInicio {
-    box-sizing: border-box;
-    width: 80%;
-    max-width: 600px;
-    margin: 20px auto;
-    height: 80%;
-    border: 2px dashed #000000;
-    padding: 20px;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  height: 80%;
+  border: 2px dashed #000000;
+  padding: 20px;
 }
 
 .contenedorInicio h3 {
-    margin-top: 2.5em;
-    text-align: center;
+  margin-top: 2.5em;
+  text-align: center;
 }
 
 .form {
-    width: 100%;
-    height: 50px;
-    max-width: 400px;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 50px;
+  max-width: 400px;
+  position: relative;
+  overflow: hidden;
 }
 
 .form input {
-    width: 100%;
-    height: 100%;
-    background: none;
-    color: #000000;
-    padding-top: 10px;
-    border: none;
-    outline: 0px;
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: #000000;
+  padding-top: 10px;
+  border: none;
+  outline: 0px;
 }
 
 .form .lbl {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    border-bottom: 1px solid #c7c7c7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid #c7c7c7;
 }
 
 .form .lbl:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100%;
-    height: 100%;
-    border-bottom: 3px solid #0C4A1A;
-    transform: translateX(-100%);
-    transition: all 0.3s ease;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #0c4a1a;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
 }
 
 .text {
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    transition: all 0.3s ease;
-    color: #0C4A1A;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transition: all 0.3s ease;
+  color: #0c4a1a;
 }
 
-.form input:focus + .lbl .text, .form input:valid + .lbl .text {
-    transform: translateY(-150%);
-    font-size: 14px;
-    color: #0C4A1A;
+.form input:focus + .lbl .text,
+.form input:valid + .lbl .text {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #0c4a1a;
 }
 
 .form input:focus + .lbl:after {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 
-.formulario{
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15%;
+.formulario {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
 }
 
-button{
-    margin-top: 10%;
+button {
+  margin-top: 10%;
 }
