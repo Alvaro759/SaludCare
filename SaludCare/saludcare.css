@@ -136,6 +136,7 @@ body {
   max-width: 400px;
   position: relative;
   overflow: hidden;
+  margin: 5px;
 }
 
 .form input {
@@ -143,7 +144,7 @@ body {
   height: 100%;
   background: none;
   color: #000000;
-  padding-top: 10px;
+  padding-top: 15px;
   border: none;
   outline: 0px;
 }
