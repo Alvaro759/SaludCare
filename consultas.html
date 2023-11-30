@@ -14,57 +14,77 @@
 <body>
     <div class="contenedor">
 
-            <div class="cabecera">
-                <a href="Index.html">
-                    <div class="logo"><img src="./img/logoTipoSaludCare.png" alt="Logo"></div>
-                </a>
-                <div class="textoCabecera">
-                    <div class="inicio"><b><a href="Index.html">INICIO</a></b></div>
-                    <div class="consultas"><b><a href="consultas.html">CONSULTAS</a></b></div>
-                    <div class="videoconsulta"><b><a href="">VIDEO CONSULTAS</a></b></div>
-                    <div class="sesion"><b><a href="login.html">INICIO SESIÓN</a></b></div>
+        <div class="cabecera">
+            <a href="Index.html">
+                <div class="logo"><img src="./img/logoTipoSaludCare.png" alt="Logo"></div>
+            </a>
+            <div class="textoCabecera">
+                <div class="inicio"><b><a href="Index.html">INICIO</a></b></div>
+                <div class="consultas"><b><a href="consultas.html">CONSULTAS</a></b></div>
+                <div class="videoconsulta"><b><a href="">VIDEO CONSULTAS</a></b></div>
+                <div class="sesion"><b><a href="login.html">INICIO SESIÓN</a></b></div>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <div class="izq">
+                <div class="cita">
+                    <label for="cita">Agenda tu cita</label>
+                    <input type="datetime-local" class="form-control" name="cita">
+                </div>
+                <div class="especialidad">
+                    <label for="especialidad">Qué tipo de doctor necesita
+                        <select name="especialidad" class="form-select">
+                            <option selected>Selecciona la especialidad</option>
+                            <option>Cardiología</option>
+                            <option>Pediatría</option>
+                            <option>Neumología</option>
+                            <option>Psiquiatría</option>
+                            <option>Otorrinolaringología</option>
+                            <option>Oftalmología</option>
+                            <option>Neurología</option>
+                            <option>Ginecología</option>
+                        </select>
+                    </label>
                 </div>
             </div>
-
-            <div class="contenido">
-                <div class="izq">
-                    <div class="cita">
-                        <label for="cita">Agenda tu cita</label>
-                        <input type="datetime-local" class="form-control" name="cita">
-                    </div>
-                    <div class="especialidad">
-                        <label for="especialidad">Qué tipo de doctor necesita
-                            <select name="especialidad" class="form-select">
-                                <option selected>Selecciona la especialidad</option>
-                                <option>Cardiología</option>
-                                <option>Pediatría</option>
-                                <option>Neumología</option>
-                                <option>Psiquiatría</option>
-                                <option>Otorrinolaringología</option>
-                                <option>Oftalmología</option>
-                                <option>Neurología</option>
-                                <option>Ginecología</option>
-                            </select>
-                        </label>
-                    </div>
-                </div>
-                <div class="dcha">
-                    <div class="contenedorMedicos">
-                        <p>MÉDICOS DISPONIBLES</p>
+            <div class="dcha">
+                <div class="contenedorMedicos">
+                    <p>MÉDICOS DISPONIBLES</p>
+                    <div class="contenedorMedico">
+                        <div class="doctor1">
+                            <img src="img/doctor1.png" alt="" width="100%" height="100%" style="margin: 1rem;">
+                            <p><b>DOCTOR</b></p>
+                            <p>Alberto García</p>
+                            <input type="checkbox" name="doctor1" id="doctor1">
+                        </div>
+                        <div class="doctor2">
+                            <img src="img/doctor2.png" alt="" width="100%" height="100%" style="margin: 1rem;">
+                            <p><b>DOCTOR</b></p>
+                            <p>Moises Moreno</p>
+                            <input type="checkbox" name="doctor2" id="doctor2">
+                        </div>
+                        <div class="doctora1">
+                            <img src="img/doctora1.png" alt="" width="100%" height="100%" style="margin: 1rem;">
+                            <p><b>DOCTORA</b></p>
+                            <p>Carmen López</p>
+                            <input type="checkbox" name="doctora1" id="doctora1">
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
 
 
-            <div class="pie">
-                <div class="logoPie"><img src="./img/logoSinLetras.png" alt="logoSinLetras"></div>
-                <div class="textoPie">
-                    <div class="accesibilidad"><b>ACCESIBILIDAD</b></div>
-                    <div class="avisolegal"><b>AVISO LEGAL</b></div>
-                    <div class="proteccion"><b>PROTECCIÓN DE DATOS</b></div>
-                </div>
+        <div class="pie">
+            <div class="logoPie"><img src="./img/logoSinLetras.png" alt="logoSinLetras"></div>
+            <div class="textoPie">
+                <div class="accesibilidad"><b>ACCESIBILIDAD</b></div>
+                <div class="avisolegal"><b>AVISO LEGAL</b></div>
+                <div class="proteccion"><b>PROTECCIÓN DE DATOS</b></div>
             </div>
+        </div>
 
     </div>
 </body>
