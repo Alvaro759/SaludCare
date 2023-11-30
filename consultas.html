@@ -7,55 +7,65 @@
     <title>SaludCare</title>
     <link rel="stylesheet" href="saludcare.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="website icon" type="png" href="img/logoSinLetras.png">
 </head>
 
 <body>
     <div class="contenedor">
-        <div class="cabecera">
-            <a href="Index.html">
-                <div class="logo"><img src="./img/logoTipoSaludCare.png" alt="Logo"></div>
-            </a>
-            <div class="textoCabecera">
-                <div class="inicio"><b><a href="Index.html">INICIO</a></b></div>
-                <div class="consultas"><b><a href="consultas.html">CONSULTAS</a></b></div>
-                <div class="videoconsulta"><b><a href="">VIDEO CONSULTAS</a></b></div>
-                <div class="sesion"><b><a href="login.html">INICIO SESIÓN</a></b></div>
-            </div>
 
-        </div>
-
-        <div class="contenido">
-            <div>
-                <div class="cita">
-                    <label for="cita">Agenda tu cita</label>
-                    <input type="datetime-local" class="form-control" name="cita">
-                </div>
-                <div class="especialidad">
-                    <select name="especialidad" class="form-select">
-                        <option selected>Selecciona la especialidad</option>
-                        <option>Cardiología</option>
-                        <option>Pediatría</option>
-                        <option>Neumología</option>
-                        <option>Psiquiatría</option>
-                        <option>Otorrinolaringología</option>
-                        <option>Oftalmología</option>
-                        <option>Neurología</option>
-                        <option>Ginecología</option>
-                    </select>
+            <div class="cabecera">
+                <a href="Index.html">
+                    <div class="logo"><img src="./img/logoTipoSaludCare.png" alt="Logo"></div>
+                </a>
+                <div class="textoCabecera">
+                    <div class="inicio"><b><a href="Index.html">INICIO</a></b></div>
+                    <div class="consultas"><b><a href="consultas.html">CONSULTAS</a></b></div>
+                    <div class="videoconsulta"><b><a href="">VIDEO CONSULTAS</a></b></div>
+                    <div class="sesion"><b><a href="login.html">INICIO SESIÓN</a></b></div>
                 </div>
             </div>
-        </div>
 
-        <div class="pie">
-            <div class="logoPie"><img src="./img/logoSinLetras.png" alt="logoSinLetras"></div>
-            <div class="textoPie">
-                <div class="accesibilidad"><b>ACCESIBILIDAD</b></div>
-                <div class="avisolegal"><b>AVISO LEGAL</b></div>
-                <div class="proteccion"><b>PROTECCIÓN DE DATOS</b></div>
+            <div class="contenido">
+                <div class="izq">
+                    <div class="cita">
+                        <label for="cita">Agenda tu cita</label>
+                        <input type="datetime-local" class="form-control" name="cita">
+                    </div>
+                    <div class="especialidad">
+                        <label for="especialidad">Qué tipo de doctor necesita
+                            <select name="especialidad" class="form-select">
+                                <option selected>Selecciona la especialidad</option>
+                                <option>Cardiología</option>
+                                <option>Pediatría</option>
+                                <option>Neumología</option>
+                                <option>Psiquiatría</option>
+                                <option>Otorrinolaringología</option>
+                                <option>Oftalmología</option>
+                                <option>Neurología</option>
+                                <option>Ginecología</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="dcha">
+                    <div class="contenedorMedicos">
+                        <p>MÉDICOS DISPONIBLES</p>
+                    </div>
+                </div>
             </div>
-        </div>
+
+
+
+            <div class="pie">
+                <div class="logoPie"><img src="./img/logoSinLetras.png" alt="logoSinLetras"></div>
+                <div class="textoPie">
+                    <div class="accesibilidad"><b>ACCESIBILIDAD</b></div>
+                    <div class="avisolegal"><b>AVISO LEGAL</b></div>
+                    <div class="proteccion"><b>PROTECCIÓN DE DATOS</b></div>
+                </div>
+            </div>
+
     </div>
 </body>
 
