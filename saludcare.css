@@ -173,8 +173,7 @@ body {
   padding: 20px;
 }
 
-.contenedorInicio h3 {
-  margin-top: 2.5em;
+.contenedorInicio h4 {
   text-align: center;
 }
 
@@ -243,9 +242,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 10%;
 }
 
+.acceso {
+  margin-top: 1em;
+}
+
+.login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* A partir de aquí es Consultas*/
 
 .izq {
