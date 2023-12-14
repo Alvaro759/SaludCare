@@ -76,7 +76,7 @@ body {
 
 .contenido {
   width: 100%;
-  height: 70%;
+  min-height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +86,7 @@ body {
   box-sizing: border-box;
   margin: 5em;
   width: 610px;
-  height: 75%;
+  min-height: 75%;
   background: rgba(12, 74, 26, 0.25);
   border: 5px dashed #000000;
 }
@@ -100,7 +100,6 @@ body {
   color: #000000;
   height: 90%;
 }
-
 
 .contenidoDcha {
   box-sizing: border-box;
@@ -142,11 +141,14 @@ body {
   margin-right: 60px;
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1300px) {
   .contenido {
     flex-direction: column;
     height: auto;
   }
+}
+
+@media only screen and (max-width: 950px) {
   .cabecera {
     flex-direction: column;
     height: auto;
@@ -158,7 +160,7 @@ body {
   }
 
   .contenidoIzq p {
-    font-size: smaller;
+    height: auto;
   }
 }
 
@@ -309,12 +311,14 @@ body {
   margin: 2rem;
 }
 
-.doctor1,
-.doctor2,
-.doctor3 {
+.doctor {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.button {
+  margin: 1em;
 }
