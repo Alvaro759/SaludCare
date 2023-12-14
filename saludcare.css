@@ -91,19 +91,16 @@ body {
   border: 5px dashed #000000;
 }
 
-.textoContenidoIzq {
+.contenidoIzq p {
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: justify;
   margin: 1em;
+  font-size: medium;
   color: #000000;
   height: 90%;
 }
 
-.textoContenidoIzq p {
-  font-size: 1.5vw;
-}
 
 .contenidoDcha {
   box-sizing: border-box;
@@ -145,7 +142,7 @@ body {
   margin-right: 60px;
 }
 
-@media only screen and (max-width: 953px) {
+@media only screen and (max-width: 1040px) {
   .contenido {
     flex-direction: column;
     height: auto;
@@ -158,6 +155,10 @@ body {
   .especialidad,
   .button {
     margin: 1em;
+  }
+
+  .contenidoIzq p {
+    font-size: smaller;
   }
 }
 
