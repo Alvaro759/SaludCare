@@ -1,0 +1,93 @@
+.contenedorInicio {
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  height: 80%;
+  border: 2px dashed $Negro;
+  padding: 20px;
+}
+
+.contenedorInicio h4 {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  height: 55px;
+  max-width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.form input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: $Verde;
+  padding-top: 15px;
+  border: none;
+  outline: 0px;
+}
+
+.form .lbl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid $Gris;
+}
+
+.form .lbl:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid $Verde;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.text {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transition: all 0.3s ease;
+  color: #0c4a1a;
+}
+
+.form input:focus + .lbl .text,
+.form input:valid + .lbl .text {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: $Verde;
+}
+
+.form input:focus + .lbl:after {
+  transform: translateX(0%);
+}
+
+.formulario {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.acceso {
+  margin-top: 1em;
+}
+
+.login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

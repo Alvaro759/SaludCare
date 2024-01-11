@@ -1,0 +1,26 @@
+.pie {
+  background-color: #b8b8b8;
+  min-height: 15%;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pie img {
+  filter: saturate(10);
+}
+
+.textoPie {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.accesibilidad,
+.avisolegal,
+.proteccion {
+  margin: 10px;
+  margin-right: 60px;
+}
