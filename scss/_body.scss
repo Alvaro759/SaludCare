@@ -1,0 +1,33 @@
+.contenido {
+  min-width: 100%;
+  min-height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenidoIzq {
+  box-sizing: border-box;
+  margin: 5em;
+  width: 90%;
+  height: 75%;
+  background: $VerdeClaro;
+  border: 5px dashed $Negro;
+}
+
+.contenidoIzq p {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: 1em;
+  font-size: medium;
+  color: $Negro;
+  height: 100%;
+}
+
+.contenidoDcha {
+  box-sizing: border-box;
+  margin: 5em;
+  height: 100%;
+  border: 5px dashed $Negro;
+}
