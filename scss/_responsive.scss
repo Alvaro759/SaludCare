@@ -1,57 +1,57 @@
-@media only screen and (max-width: 1300px) {
-    .contenido {
-      flex-direction: column;
-      height: auto;
-    }
+@media only screen and (max-width: 950px) {
+  .responsive {
+    flex-direction: column;
+    height: auto;
   }
-  
-  @media only screen and (max-width: 950px) {
-    .cabecera {
-      flex-direction: column;
-      height: auto;
-    }
-    .cita,
-    .especialidad,
-    .button {
-      margin: 1em;
-    }
-  
-    .contenidoIzq p {
-      height: auto;
-    }
-  
-    .logoPie {
-      display: none;
-    }
-  
-    .textoPie {
-      font-size: small;
-    }
+}
+
+@media only screen and (max-width: 950px) {
+  .cabecera {
+    flex-direction: column;
+    height: auto;
   }
-  
-  @media screen and (max-width: 450px) {
-    #contenedorMedicos,
-    #contenedorMedico {
-      border: none;
-    }
-  
-    .contenedorMedico img {
-      display: none;
-    }
-  
-    .contenedorMedicos {
-      width: 50%;
-    }
-  
-    #doctor {
-      margin: 0;
-    }
-  
-    .textoPie {
-      font-size: 70%;
-    }
-  
-    .logo {
-      width: auto;
-    }
+  .cita,
+  .especialidad,
+  .button {
+    margin: 1em;
   }
+
+  .contenidoIzq p {
+    height: auto;
+  }
+
+  .logoPie {
+    display: none;
+  }
+
+  .textoPie {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #contenedorMedicos,
+  #contenedorMedico {
+    border: none;
+  }
+
+  .contenedorMedico img {
+    display: none;
+  }
+
+  .contenedorMedicos {
+    width: 50%;
+  }
+
+  #doctor {
+    margin: 0;
+  }
+
+  .textoPie {
+    font-size: 70%;
+  }
+
+  .logo {
+    width: auto;
+  }
+}

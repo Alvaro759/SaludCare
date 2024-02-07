@@ -69,39 +69,18 @@
   justify-content: center;
 }
 
-.contenidoIzq {
-  box-sizing: border-box;
-  margin: 5em;
-  width: 90%;
-  height: 75%;
-  background: rgba(12, 74, 26, 0.2509803922);
+.borde {
   border: 5px dashed #000;
+  margin: 2rem;
 }
 
-.contenidoIzq p {
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  margin: 1em;
-  font-size: medium;
-  color: #000;
-  height: 100%;
+.background {
+  background: rgba(12, 74, 26, 0.2509803922);
 }
 
 .contenidoDcha {
   box-sizing: border-box;
-  margin: 5em;
-<<<<<<< HEAD:saludcare.css
-  width: 90%;
-  height: 70%;
-  border: 5px dashed #000000;
-}
-
-.imagen {
-=======
->>>>>>> d91980f806bf39d7a6f9b2de0fef39b0ee1f03b2:scss/css/saludcare.css
   height: 100%;
-  border: 5px dashed #000;
 }
 
 .pie {
@@ -116,19 +95,13 @@
   filter: saturate(10);
 }
 
-.textoPie {
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
+.pie a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.accesibilidad,
-.avisolegal,
-.proteccion {
-  margin: 10px;
-  margin-right: 60px;
+.pie a:hover {
+  color: #000;
 }
 
 .contenedorInicio {
@@ -287,8 +260,8 @@
   margin: 1em;
 }
 
-@media only screen and (max-width: 1300px) {
-  .contenido {
+@media only screen and (max-width: 950px) {
+  .responsive {
     flex-direction: column;
     height: auto;
   }

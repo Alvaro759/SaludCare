@@ -10,17 +10,11 @@
   filter: saturate(10);
 }
 
-.textoPie {
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
+.pie a {
+  color: $Blanco;
+  text-decoration: none;
 }
 
-.accesibilidad,
-.avisolegal,
-.proteccion {
-  margin: 10px;
-  margin-right: 60px;
+.pie a:hover {
+  color: $Negro;
 }
