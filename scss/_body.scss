@@ -19,3 +19,16 @@
   box-sizing: border-box;
   height: 100%;
 }
+
+.btn1 {
+  background-color: #205922af;
+  color: whitesmoke;
+  border-radius: 1rem;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn1:hover {
+  background-color: $Verde;
+  transition: background-color 0.3s;
+}

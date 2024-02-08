@@ -40,19 +40,10 @@
         <div class="container-sm d-flex align-items-center borde background">
           <div class="text-center m-3">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              pulvinar lacinia elit eget sagittis. Vestibulum magna ligula,
-              auctor sit amet nibh condimentum, sollicitudin consectetur
-              purus. Duis id elementum purus. Aliquam eget lacus odio. Integer
-              pretium dictum gravida. Nam efficitur, felis quis maximus
-              ultricies, lacus mi sodales lacus, eget viverra odio mauris eu
-              neque. Curabitur quis accumsan orci, sit amet viverra urna.
-              Etiam dictum ipsum nec auctor elementum. Pellentesque eu elit
-              vel ipsum tempor placerat. Morbi vel tellus at libero faucibus
-              egestas eu quis dui. Aenean ut metus nibh. Mauris eros diam,
-              malesuada id fermentum sit amet, vulputate lobortis ipsum.
-              Quisque condimentum turpis vel turpis sodales, at maximus dui
-              tempus.
+              SaludCare. Tu accesp rápido y senillo a la atención médica en línea.
+              Elige entre una variedad de especialidades y programa una cita con el médico que necesitas.
+              Conéctate fácilmente a través de videollamada desde donde estés.
+              Obtén orientación médica personalizada y confiable en minutos.
             </p>
           </div>
         </div>
@@ -60,8 +51,8 @@
           <img src="./img/imagenInicio.png" alt="Imagen Inicio" width="100%" />
         </div>
       </div>
-      <div class="container-fluid d-flex justify-content-center">
-        <div class="reproductor">
+      <div class="container-fluid d-flex justify-content-around m-3">
+        <div class="reproductor d-flex-inline align-items-center">
           <audio id="player">
             <source src="mp3/AudioSaludCare.mp3" type="audio/mpeg" />
           </audio>
@@ -74,28 +65,8 @@
           <img src="img/volumedown.svg" onClick="document.getElementById('player').
                     volume-=O.l" />
         </div>
-      </div>
-      <div class="text-center border rounded m-3">
-        <h2>Reseñas</h2>
-        <div class="container-fluid d-flex justify-content-center">
-          <div class="m-3">
-            <video height="300" height="240" controls>
-              <source src="mp4/reseña1.mp4" type="video/mp4" />
-            </video>
-            <p><b>Cristian Rey</b></p>
-          </div>
-          <div class="m-3">
-            <video height="300" height="240" controls>
-              <source src="mp4/reseña2.mp4" type="video/mp4" />
-            </video>
-            <p><b>Joaquin Lainez</b></p>
-          </div>
-          <div class="m-3">
-            <video height="300" height="240" controls>
-              <source src="mp4/reseña3.mp4" type="video/mp4" />
-            </video>
-            <p><b>Nerea Perez</b></p>
-          </div>
+        <div class="reseñas d-flex-inline align-items-center">
+          <a href="reseñas.html"><button class="btn1">Reseñas</button></a>
         </div>
       </div>
     </div>

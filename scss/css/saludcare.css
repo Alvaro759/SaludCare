@@ -83,6 +83,19 @@
   height: 100%;
 }
 
+.btn1 {
+  background-color: rgba(32, 89, 34, 0.6862745098);
+  color: whitesmoke;
+  border-radius: 1rem;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn1:hover {
+  background-color: #0c4a1a;
+  transition: background-color 0.3s;
+}
+
 .pie {
   background-color: #b8b8b8;
   min-height: 15%;
@@ -262,8 +275,9 @@
 
 @media only screen and (max-width: 950px) {
   .responsive {
-    flex-direction: column;
-    height: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
   }
 }
 @media only screen and (max-width: 950px) {

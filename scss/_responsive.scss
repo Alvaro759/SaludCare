@@ -1,7 +1,8 @@
 @media only screen and (max-width: 950px) {
   .responsive {
-    flex-direction: column;
-    height: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
   }
 }
 
