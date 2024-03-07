@@ -4,4 +4,6 @@
 los labels se mueven para introducir el input, lo a tienen un hover para que cuando pasen el click por encima cambien de color para darle así un feedback a los usuarios y sea más facil el uso de la página.  
   
  - Los vídeos están subtitulados para que las personas con problemas auditivos.  
+  
+ - Tiene una buena gamma de colores.
 ## Realizado por Álvaro Caraballo García 2023/2024
